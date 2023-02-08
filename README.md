@@ -13,7 +13,8 @@
 
          program_path = config.get("Paths", "program_path")
      
-     Check the path loacation of these other programs and modify the config file accordingly:
+  * Check the path loacation of these other programs and modify the config file accordingly:
+
      modppi (from MODPIN)
      Clustal-Omega
      EMBOSS
@@ -23,8 +24,9 @@
      MODELLER
      WEBLOGO (installed in Python)
 
-  * Necessary commands to submit to queues of a cluster are specified in files
-     command_queue  (i.e. command_queues_cluster.txt) 
+  * Necessary commands to submit to queues of a cluster are specified in file: 
+
+    command_queues_cluster.txt
 
 ----
 # Download files #
@@ -87,6 +89,7 @@ gunzip uniprot_sprot.fasta.gz
 * Reformat UniRef in Sprot format
 
 python ../scripts/uniref2SP.py -u uniref50.fasta -o uniref50_sprot.fasta
+
 python ../scripts/uniref2SP.py -u uniref90.fasta -o uniref90_sprot.fasta
 
 * Get the header we wish to use
@@ -113,7 +116,9 @@ gunzip idmapping.dat.gz
 * Cisbp_2.00.motifs.sql cisbp_2.0.tf_families.sql
 
 * Get TF information for all TFs plus TF info and proteins for PBM:
+
      prot_seq_PBM.txt  
+
      TF_Information_PBM.txt
 
 * Modify  prot_seq_PBM.txt: Species must be TF_Species and Protein_seq must be Protein_Sequence
@@ -147,15 +152,15 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
 
 * Step by step DB construction:
 
-sh pdb_1.sh
-sh pdb_2.sh
-sh pdb_3.sh
-sh pdb_4.sh
-sh pdb_5.sh
-sh pdb_6.sh
-sh pdb_7.sh
-sh pdb_7r.sh
-sh pdb_8.sh
+  sh pdb_1.sh
+  sh pdb_2.sh
+  sh pdb_3.sh
+  sh pdb_4.sh
+  sh pdb_5.sh
+  sh pdb_6.sh
+  sh pdb_7.sh
+  sh pdb_7r.sh
+  sh pdb_8.sh
 
 -----
 # Parse PBM data #
@@ -171,19 +176,19 @@ sh pdb_8.sh
 
   sh pbm_1.1.sh
 
-# Step by step DB construction for 2019 data:
+* Step by step DB construction for 2019 data:
 
-sh pbm_1.sh
-sh pbm_2.sh
-sh pbm_3.sh
-sh pbm_4.sh
-sh pbm_5.sh
-sh pbm_6.sh
-sh pbm_7.sh
-sh pbm_8.sh
-sh pbm_9.sh
-sh pbm_10.sh
-sh pbm_11.sh
+  sh pbm_1.sh
+  sh pbm_2.sh
+  sh pbm_3.sh
+  sh pbm_4.sh
+  sh pbm_5.sh
+  sh pbm_6.sh
+  sh pbm_7.sh
+  sh pbm_8.sh
+  sh pbm_9.sh
+  sh pbm_10.sh
+  sh pbm_11.sh
 
 -----
 # Grid Search to get best parameters per family
@@ -193,7 +198,7 @@ sh pbm_11.sh
 
 *  Parameters are inserted in config.ini
 
-sh run_grid_search.sh
+   sh run_grid_search.sh
 
 -----
 ##################
