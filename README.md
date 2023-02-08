@@ -1,5 +1,5 @@
 ----
-# Configuration  #
+# Configuration  
 ----
 
   * Set configuration file parameters (i.e. ./scripts/config.ini).
@@ -36,7 +36,7 @@
     command_queues_cluster.txt
 
 ----
-# Download files #
+# Download files 
 ----
 
 * make folders for the database:
@@ -120,7 +120,7 @@ curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebas
 gunzip idmapping.dat.gz
 
 ----
-# Get TFs        #
+# Get TFs        
 ----
 
 
@@ -147,10 +147,10 @@ python  scripts/tfinder2.py -o tfinder2019 -p pbm/CisBP_2019/CisBP_2.00.PBM.prot
 python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.proteins.sql --pdb=pdb/all -t pbm/CisBP_2019/CisBP_2.00.all.tfs.sql  -u uniprot/uniprot_sprot+trembl.fasta -f pbm/CisBP_2019/CisBP_2.00.all.tf_families.sql --map  uniprot/idmapping.dat --dummy=dummy_tfinder -v 
  
 
-# [warning] Modify the scripts to load the program versions that you have installed, according to the definitions use in the configuration file
+# [warning] Modify the scripts to load the program versions that you have installed, according to the definitions used in the configuration file
 
 ------
-# Parse PDB data #
+# Parse PDB data 
 ------
 
 * All in a run
@@ -185,7 +185,7 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
 
 
 -----
-# Parse PBM data #
+# Parse PBM data 
 -----
 
 * All in a run to generate data from 2016 (for all data)
@@ -234,9 +234,7 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
    sh run_grid_search.sh
 
 -----
-##################
-# Examples of USE#
-##################
+# Examples of USE
 -----
 
 -----
@@ -250,6 +248,7 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
 
 python scripts/model_protein.py -i example/protein2dna/atoh1.fa -l ATOH1 -o example/protein2dna/ATOH1  --pdb=pdb/ -v --dummy=./dummy
 
+-----
 2) Model mix of monomer and dimers:
 -----------------------------------
 
@@ -257,6 +256,7 @@ python scripts/model_protein.py -i example/protein2dna/esr1.fa -l ESR1 -o exampl
 
 python scripts/model_protein.py -i example/protein2dna/err1.fa -l ERR1 -o example/protein2dna/ERR1  --pdb=pdb/ -v --dummy=./dummy  --full --all --renumerate --chains_fixed --dummy=./dummy 
 
+-----
 3) Model a heterodimer:
 -----------------------
 
@@ -265,6 +265,7 @@ python scripts/model_protein.py -i example/protein2dna/err1.fa -l ERR1 -o exampl
 python scripts/model_protein.py -i example/protein2dna/hetero.fa -l HETERO -o example/protein2dna/HETERO/  --pdb=pdb/ -v --dummy=./dummy
 
 
+-----
 4) Model several protein-dna structures from threading files:
 -------------------------------------------------------------
 
@@ -273,6 +274,7 @@ python scripts/model_protein.py -i example/protein2dna/hetero.fa -l HETERO -o ex
 python scripts/model_multiple_proteins.py  -i example/protein2dna/threads.list --threading --pdb=pdb/ -v --parallel --dna -o example/protein2dna/THREAD_LIST --dummy=./dummy
 
 
+-----
 5) Model a DNA sequence:
 ------------------------
 
@@ -284,6 +286,7 @@ python scripts/model_dna.py -p example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.pdb
    --pdb=pdb/ -s AAAAAAAAAAAAAAA -i example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.interface 
 
 
+-----
 6) Predict PWM of a single model:
 --------------------------------
 
@@ -292,6 +295,7 @@ python scripts/model_dna.py -p example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.pdb
 python scripts/pwm_pbm.py -i examples/protein2dna/ATOH1/ATOH1:160:216_1mdy_A_1.pdb -o  examples/protein2dna/ATOH1/ATOH1:160:216_1mdy_A_1 --pbm=pbm/ --pdb=pdb/ -v --auto
 
 
+-----
 7) Predict PWM of a folder with models:
 --------------------------------------
 
@@ -300,6 +304,7 @@ python scripts/pwm_pbm.py -i examples/protein2dna/ATOH1/ATOH1:160:216_1mdy_A_1.p
 python scripts/pwm_pbm.py -i examples/protein2dna/ATOH1 --pbm=pbm/ --pdb=pdb/ -v --auto --parallel
 
 
+-----
 8) Score an interaction:
 ------------------------
 
@@ -307,6 +312,7 @@ python scripts/pwm_pbm.py -i examples/protein2dna/ATOH1 --pbm=pbm/ --pdb=pdb/ -v
 
 python scripts/scorer.py -i example/protein2dna/ATOH1/ATOH1:160:216_1mdy_A_1.pdb  --dummy=dummy -o example/protein2dna/ATOH1/ATOH1:160:216_1mdy_A_1.score  --pbm=pbm/ --pdb=pdb/  --norm -v -a  -s allexample/protein2dna/ATOH1/ATOH1:160:216_1mdy_A_1.score
  
+-----
 9) Profile an interaction:
 ------------------------
 
@@ -332,6 +338,7 @@ python scripts/xprofiler.py --chains_fixed --dummy=./dummy -d example/protein2dn
 python scripts/scanner.py --dummy=./dummy_scan -i example/enhancer/dna.fa -l IFNB_HUMAN  --pbm=./pbm --pdb=./pdb -v 
   -o example/enhancer/IFNB_HUMAN --parallel --reuse --max 100 --ft 0.005 -s 9606 --rank 
 
+-----
 2) Build models from threading files:
 -------------------------------------
 
@@ -352,6 +359,7 @@ python scripts/model_protein.py -i example/enhancer/IFNB_HUMAN/aux_files/Q04864.
 
 sh run_nearest_neighbour.sh
 
+-----
 2) Option 2, step by step:
 ------------------------
 
