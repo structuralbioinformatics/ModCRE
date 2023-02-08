@@ -127,7 +127,9 @@ gunzip idmapping.dat.gz
 
 * If SQL files are not available (i.e downloading full SQL is incomplete), try getting at least  Cisbp_2.00.motifs.sql and families:
 
-     Cisbp_2.00.motifs.sql cisbp_2.0.tf_families.sql
+     Cisbp_2.00.motifs.sql 
+
+     cisbp_2.0.tf_families.sql
 
 * Get TF information for all TFs plus TF info and proteins for PBM:
 
