@@ -16,12 +16,19 @@
   * Check the path loacation of these other programs and modify the config file accordingly:
 
      modppi (from MODPIN)
+
      Clustal-Omega
+
      EMBOSS
+
      MEME
+
      MMSeqs2
+
      CD-HIT
+
      MODELLER
+
      WEBLOGO (installed in Python)
 
   * Necessary commands to submit to queues of a cluster are specified in file: 
@@ -80,11 +87,17 @@ mkdir uniprot
 * Move to folder uniprot and execute:
 
 curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.fasta.gz
+
 gunzip uniref50.fasta.gz
+
 curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz
+
 gunzip uniref90.fasta.gz
+
 curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz
+
 gunzip uniprot_sprot.fasta.gz
+
 
 * Reformat UniRef in Sprot format
 
@@ -125,7 +138,7 @@ gunzip idmapping.dat.gz
 
 * Then extract SQL files and TF files from them
 
-python ../../scripts/get_CisBP_Tables.py --sql Cisbp_2.00.motifs.sql --tf TF_Information_all_motifs.txt --ps prot_seq_PBM.txt --select TF_Information_PBM.txt -o CisBP_2.00.PBM &
+python ../../scripts/get_CisBP_Tables.py --sql Cisbp_2.00.motifs.sql --tf TF_Information_all_motifs.txt --ps prot_seq_PBM.txt --select TF_Information_PBM.txt -o CisBP_2.00.PBM 
 
 * And TF files (you can later select whether you plan to use all TFs downloaded or only those with PBM data extracted as above)
 
@@ -153,14 +166,23 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
 * Step by step DB construction:
 
   sh pdb_1.sh
+
   sh pdb_2.sh
+
   sh pdb_3.sh
+
   sh pdb_4.sh
+
   sh pdb_5.sh
+
   sh pdb_6.sh
+
   sh pdb_7.sh
+
   sh pdb_7r.sh
+
   sh pdb_8.sh
+
 
 -----
 # Parse PBM data #
@@ -170,8 +192,8 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
 
 * PBM of  CisBP 2016:
 
-  python scripts/pbm.py -e pbm/CisBP_2016/Escores.txt -f pbm/CisBP_2016/cisbp_1.02.tf_families.sql -m pbm/CisBP_2016/cisbp_1.02.motifs.sql \
-  -s pbm/CisBP_2016/cisbp_1.02.motif_sources.sql -t pbm/CisBP_2016/cisbp_1.02.tfs.sql -u uniprot/uniprot_sprot+trembl.fasta --dummy=./dummy_tf \
+  python scripts/pbm.py -e pbm/CisBP_2016/Escores.txt -f pbm/CisBP_2016/cisbp_1.02.tf_families.sql -m pbm/CisBP_2016/cisbp_1.02.motifs.sql 
+  -s pbm/CisBP_2016/cisbp_1.02.motif_sources.sql -t pbm/CisBP_2016/cisbp_1.02.tfs.sql -u uniprot/uniprot_sprot+trembl.fasta --dummy=./dummy_tf 
   --pdb=pdb_tf -o pbm_tf --pwm=pbm/CisBP_2016/PWM_2016/pwms/ -v
 
   sh pbm_1.1.sh
@@ -179,16 +201,27 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
 * Step by step DB construction for 2019 data:
 
   sh pbm_1.sh
+
   sh pbm_2.sh
+
   sh pbm_3.sh
+
   sh pbm_4.sh
+
   sh pbm_5.sh
+
   sh pbm_6.sh
+
   sh pbm_7.sh
+
   sh pbm_8.sh
+
   sh pbm_9.sh
+
   sh pbm_10.sh
+
   sh pbm_11.sh
+
 
 -----
 # Grid Search to get best parameters per family
@@ -247,7 +280,7 @@ python scripts/model_multiple_proteins.py  -i example/protein2dna/threads.list -
 
 python scripts/interface.py -i example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.pdb -o example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.interface --dummy=./dummy
 
-python scripts/model_dna.py -p example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.pdb -o example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.AAAAAAAAAAAAAAA \
+python scripts/model_dna.py -p example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.pdb -o example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.AAAAAAAAAAAAAAA 
    --pdb=pdb/ -s AAAAAAAAAAAAAAA -i example/protein2dna/ERR1/ERR1:73:153_1by4_B_1.interface 
 
 
