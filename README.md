@@ -1,13 +1,16 @@
-##################
+----
 # Configuration  #
-##################
+----
 
   -> Set configuration file parameters (i.e. ./scripts/config.ini).
      Substitute PATH_OF_MODCRE for the address where modcre has been installed (i.e. /sbi/users/modcre)
      Executable binary programs of  DSSP, X3DNA, TMalign, ghostscript, BLAST+ (ncbi-blast-2.2.31+) and HMMER (3) will be installed or linked in folder "src" of modcre
-     Modify the addresses in the scripts if you wish to use other  
+     Modify the addresses in the scripts if you wish to use other 
+ 
          program_path = os.path.join(src_path, config.get("Paths", "program_path"))
+
      to 
+
          program_path = config.get("Paths", "program_path")
      
      Check the path loacation of these other programs and modify the config file accordingly:
@@ -21,18 +24,18 @@
      WEBLOGO (installed in Python)
 
   -> Necessary commands to submit to queues of a cluster are specified in files
-     command_queue  (i.e. command_queues_cluster.txt) for Python 2.7
-     command_queue3 (i.e. command_queues_cluster3.txt) for Python 3
+     command_queue  (i.e. command_queues_cluster.txt) 
 
-
-##################
+----
 # Download files #
-##################
+----
 
 -> make folders for the database:
 
 mkdir pdb
+
 mkdir pbm
+
 mkdir uniprot
 
 
@@ -100,9 +103,9 @@ curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebas
 
 gunzip idmapping.dat.gz
 
-##################
+----
 # Get TFs        #
-##################
+----
 
 
 -> If SQL files are not available (i.e download full SQL which is incomplete), try getting at least  Cisbp_2.00.motifs.sql and families:
@@ -127,9 +130,10 @@ python  scripts/tfinder2.py -o tfinder_all -p pbm/CisBP_2019/CisBP_2.00.all.prot
  
 
 # [warning] Modify the scripts to load the program versions that you have installed, according to the definitions use in the configuration file
-##################
+
+------
 # Parse PDB data #
-##################
+------
 
 -> All in a run
 
@@ -153,9 +157,9 @@ sh pdb_7.sh
 sh pdb_7r.sh
 sh pdb_8.sh
 
-##################
+-----
 # Parse PBM data #
-##################
+-----
 
 -> All in a run to generate data from 2016 (for all data)
 
@@ -181,9 +185,9 @@ sh pbm_9.sh
 sh pbm_10.sh
 sh pbm_11.sh
 
-#####################################################################################
+-----
 # Grid Search to get best parameters per family
-#####################################################################################
+-----
 
 ->  Get parameters with script run_grid_search
 
@@ -191,13 +195,15 @@ sh pbm_11.sh
 
 sh run_grid_search.sh
 
+-----
 ##################
 # Examples of USE#
 ##################
+-----
 
-#####################################################################################
+-----
 # Protein to DNA: applications of the model.py, pwm.py and score.py programs
-#####################################################################################
+-----
 
 1) Model a monomer:
 -------------------
@@ -276,9 +282,9 @@ python scripts/xprofiler.py --chains_fixed --dummy=./dummy -d example/protein2dn
   --pbm=./pbm_2.0 --pdb=./pdb  -v  --plot --html --html_types normal,energy,energy_per_nucleotide,energy_best,fimo_log_score,fimo_binding,fimo_score 
   --html_energies s3dc_dd,s3dc,pair   -o  ESR1_ERR1.profile -l thread --auto  --parallel --radius 22.0 --reuse
 
-######################################################################################################
+-----
 # DNA to protein: characterization of the human enhanceosome at the ifn-beta gene promoter
-######################################################################################################
+-----
 
 1) Scan a DNA sequence:
 -----------------------
@@ -298,9 +304,10 @@ python scripts/model_protein.py -i example/enhancer/IFNB_HUMAN/aux_files/Q04864.
       -o example/enhancer/IFNB_HUMAN/models/ --pbm=pbm/ --pdb=pdb/ -t -v
 
 
-######################################################################################################
+
+------
 # Compare the PWM predictions with the nearest-neighbour approach
-######################################################################################################
+------
 
 1) Option 1, single run:
 ----------------------
