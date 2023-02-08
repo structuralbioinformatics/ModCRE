@@ -3,9 +3,10 @@
 ----
 
   * Set configuration file parameters (i.e. ./scripts/config.ini).
-     Substitute PATH_OF_MODCRE for the address where modcre has been installed (i.e. /sbi/users/modcre)
-     Executable binary programs of  DSSP, X3DNA, TMalign, ghostscript, BLAST+ (ncbi-blast-2.2.31+) and HMMER (3) will be installed or linked in folder "src" of modcre
-     Modify the addresses in the scripts if you wish to use other 
+
+     Substitute PATH_OF_MODCRE for the address where modcre has been installed (i.e. /sbi/users/modcre).
+     Executable binary programs of  DSSP, X3DNA, TMalign, ghostscript, BLAST+ (ncbi-blast-2.2.31+) and HMMER (3) will be installed or linked in folder "src" of modcre.
+     Modify the addresses in the scripts if you wish to use other:
  
          program_path = os.path.join(src_path, config.get("Paths", "program_path"))
 
@@ -327,7 +328,7 @@ python scripts/xprofiler.py --chains_fixed --dummy=./dummy -d example/protein2dn
   --html_energies s3dc_dd,s3dc,pair   -o  ESR1_ERR1.profile -l thread --auto  --parallel --radius 22.0 --reuse
 
 -----
-# DNA to protein: characterization of the human enhanceosome at the ifn-beta gene promoter
+# DNA to protein: characterization of the human enhanceosome at the IFN-BETA gene promoter
 -----
 
 1) Scan a DNA sequence:
