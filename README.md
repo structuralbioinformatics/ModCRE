@@ -125,9 +125,9 @@ gunzip idmapping.dat.gz
 ----
 
 
-* If SQL files are not available (i.e download full SQL which is incomplete), try getting at least  Cisbp_2.00.motifs.sql and families:
+* If SQL files are not available (i.e downloading full SQL is incomplete), try getting at least  Cisbp_2.00.motifs.sql and families:
 
-* Cisbp_2.00.motifs.sql cisbp_2.0.tf_families.sql
+     Cisbp_2.00.motifs.sql cisbp_2.0.tf_families.sql
 
 * Get TF information for all TFs plus TF info and proteins for PBM:
 
@@ -141,7 +141,7 @@ gunzip idmapping.dat.gz
 
 python ../../scripts/get_CisBP_Tables.py --sql Cisbp_2.00.motifs.sql --tf TF_Information_all_motifs.txt --ps prot_seq_PBM.txt --select TF_Information_PBM.txt -o CisBP_2.00.PBM 
 
-* And TF files (you can later select whether you plan to use all TFs downloaded or only those with PBM data extracted as above)
+* Then, get TF files (you can later select whether you plan to use all TFs downloaded or only those with PBM data extracted as above)
 
 python  scripts/tfinder2.py -o tfinder2019 -p pbm/CisBP_2019/CisBP_2.00.PBM.proteins.sql --pdb=pdb/all -t pbm/CisBP_2019/CisBP_2.00.PBM.tfs.sql  -u uniprot/uniprot_sprot+trembl.fasta -f pbm/CisBP_2019/cisbp_2.0.tf_families.sql --dummy=dummy_tfinder -v
 
