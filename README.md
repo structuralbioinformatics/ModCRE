@@ -28,7 +28,9 @@
 ##################
 # Download files #
 ##################
+
 -> make folders for the database
+
 mkdir pdb
 mkdir pbm
 mkdir uniprot
