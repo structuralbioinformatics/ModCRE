@@ -1,0 +1,13 @@
+This package consists of one Python script and six text files 
+It can take either a PDBID or a PDBID+chianID
+
+For example:
+./TFinder.py 1tsr
+./TFinder.py 1tsrc
+
+The output can be one of the following three:
+
+TF
+Non-TF
+Non-TF ( manually verify )
+

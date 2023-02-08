@@ -1,0 +1,108 @@
+GO:0000975 molecular_function F	regulatory region DNA binding 
+GO:0000976 molecular_function T	transcription regulatory region sequence-specific DNA binding 
+GO:0000977 molecular_function T	RNA polymerase II regulatory region sequence-specific DNA binding 
+GO:0000978 molecular_function T	RNA polymerase II core promoter proximal region sequence-specific DNA binding 
+GO:0000979 molecular_function T	RNA polymerase II core promoter sequence-specific DNA binding 
+GO:0000980 molecular_function T	RNA polymerase II enhancer sequence-specific DNA binding 
+GO:0000981 molecular_function T	sequence-specific DNA binding RNA polymerase II transcription factor activity 
+GO:0000982 molecular_function T	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity 
+GO:0000983 molecular_function T	RNA polymerase II core promoter sequence-specific DNA binding transcription factor activity 
+GO:0000984 molecular_function T	bacterial-type RNA polymerase regulatory region sequence-specific DNA binding 
+GO:0000985 molecular_function T	bacterial-type RNA polymerase core promoter sequence-specific DNA binding 
+GO:0000986 molecular_function T	bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding 
+GO:0000987 molecular_function T	core promoter proximal region sequence-specific DNA binding 
+GO:0000988 molecular_function F	protein binding transcription factor activity 
+GO:0000989 molecular_function T	transcription factor binding transcription factor activity 
+GO:0000990 molecular_function F	core RNA polymerase binding transcription factor activity 
+GO:0000991 molecular_function F	core RNA polymerase II binding transcription factor activity 
+GO:0000992 molecular_function T	polymerase III regulatory region sequence-specific DNA binding 
+GO:0000995 molecular_function F	core RNA polymerase III binding transcription factor activity 
+GO:0000997 molecular_function T	mitochondrial RNA polymerase core promoter sequence-specific DNA binding 
+GO:0001002 molecular_function T	RNA polymerase III type 1 promoter sequence-specific DNA binding 
+GO:0001003 molecular_function T	RNA polymerase III type 2 promoter sequence-specific DNA binding 
+GO:0001006 molecular_function T	RNA polymerase III type 3 promoter sequence-specific DNA binding 
+GO:0001007 molecular_function T	RNA polymerase III transcription factor binding transcription factor activity 
+GO:0001010 molecular_function T	sequence-specific DNA binding transcription factor recruiting transcription factor activity 
+GO:0001011 molecular_function T	sequence-specific DNA binding RNA polymerase recruiting transcription factor activity 
+GO:0001012 molecular_function F	RNA polymerase II regulatory region DNA binding 
+GO:0001013 molecular_function F	RNA polymerase I regulatory region DNA binding 
+GO:0001016 molecular_function F	RNA polymerase III regulatory region DNA binding 
+GO:0001017 molecular_function F	bacterial-type RNA polymerase regulatory region DNA binding 
+GO:0001018 molecular_function F	mitochondrial RNA polymerase regulatory region DNA binding 
+GO:0001019 molecular_function F	plastid RNA polymerase regulatory region DNA binding 
+GO:0001025 molecular_function F	RNA polymerase III transcription factor binding 
+GO:0001030 molecular_function F	RNA polymerase III type 1 promoter DNA binding 
+GO:0001031 molecular_function F	RNA polymerase III type 2 promoter DNA binding 
+GO:0001032 molecular_function F	RNA polymerase III type 3 promoter DNA binding 
+GO:0001034 molecular_function T	sequence-specific DNA binding RNA polymerase III transcription factor activity 
+GO:0001037 molecular_function F	RNA polymerase III hybrid type promoter DNA binding 
+GO:0001039 molecular_function T	RNA polymerase III hybrid type promoter sequence-specific DNA binding 
+GO:0001044 molecular_function T	mitochondrial RNA polymerase regulatory region sequence-specific DNA binding 
+GO:0001045 molecular_function T	mitochondrial RNA polymerase core promoter proximal region sequence-specific DNA binding 
+GO:0001046 molecular_function T	core promoter sequence-specific DNA binding 
+GO:0001053 molecular_function T	plastid sigma factor activity 
+GO:0001070 molecular_function F	RNA binding transcription factor activity 
+GO:0001071 molecular_function F	nucleic acid binding transcription factor activity 
+GO:0001072 molecular_function F	RNA binding transcription antitermination factor activity 
+GO:0001073 molecular_function F	DNA binding transcription antitermination factor activity 
+GO:0001074 molecular_function T	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in preinitiation complex assembly 
+GO:0001075 molecular_function T	sequence-specific core promoter binding RNA polymerase II transcription factor activity involved in preinitiation complex assembly 
+GO:0001076 molecular_function F	RNA polymerase II transcription factor binding transcription factor activity 
+GO:0001077 molecular_function T	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription 
+GO:0001078 molecular_function T	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in negative regulation of transcription 
+GO:0001082 molecular_function F	RNA polymerase I transcription factor binding transcription factor activity 
+GO:0001083 molecular_function F	RNA polymerase II basal transcription factor binding transcription factor activity 
+GO:0001085 molecular_function F	RNA polymerase II transcription factor binding 
+GO:0001091 molecular_function F	RNA polymerase II basal transcription factor binding 
+GO:0001102 molecular_function F	RNA polymerase II activating transcription factor binding 
+GO:0001103 molecular_function F	RNA polymerase II repressing transcription factor binding 
+GO:0001104 molecular_function F	RNA polymerase II transcription cofactor activity 
+GO:0001105 molecular_function F	RNA polymerase II transcription coactivator activity 
+GO:0001106 molecular_function F	RNA polymerase II transcription corepressor activity 
+GO:0001128 molecular_function F	RNA polymerase II transcription coactivator activity involved in preinitiation complex assembly 
+GO:0001130 molecular_function T	sequence-specific DNA binding bacterial-type RNA polymerase transcription factor activity 
+GO:0001131 molecular_function T	bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding transcription factor activity 
+GO:0001133 molecular_function T	sequence-specific transcription regulatory region DNA binding RNA polymerase II transcription factor recruiting transcription factor activity 
+GO:0001134 molecular_function F	transcription factor recruiting transcription factor activity 
+GO:0001135 molecular_function F	RNA polymerase II transcription factor recruiting transcription factor activity 
+GO:0001139 molecular_function F	core RNA polymerase II recruiting transcription factor activity 
+GO:0001140 molecular_function T	bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription 
+GO:0001141 molecular_function T	bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding transcription factor activity involved in negative regulation of transcription 
+GO:0001142 molecular_function T	sequence-specific DNA binding mitochondrial RNA polymerase transcription factor activity 
+GO:0001143 molecular_function T	mitochondrial RNA polymerase core promoter sequence-specific DNA binding transcription factor activity 
+GO:0001144 molecular_function T	mitochondrial RNA polymerase core promoter proximal region sequence-specific DNA binding transcription factor activity 
+GO:0001150 molecular_function T	bacterial-type RNA polymerase enhancer sequence-specific DNA binding 
+GO:0001151 molecular_function T	bacterial-type RNA polymerase transcription enhancer sequence-specific DNA binding transcription factor activity 
+GO:0001153 molecular_function F	RNA polymerase III transcription factor recruiting transcription factor activity 
+GO:0001158 molecular_function T	enhancer sequence-specific DNA binding 
+GO:0001159 molecular_function F	core promoter proximal region DNA binding 
+GO:0001161 molecular_function T	intronic transcription regulatory region sequence-specific DNA binding 
+GO:0001162 molecular_function T	RNA polymerase II intronic transcription regulatory region sequence-specific DNA binding 
+GO:0001163 molecular_function T	RNA polymerase I regulatory region sequence-specific DNA binding 
+GO:0001164 molecular_function T	RNA polymerase I core promoter sequence-specific DNA binding 
+GO:0001165 molecular_function T	RNA polymerase I upstream control element sequence-specific DNA binding 
+GO:0001166 molecular_function T	RNA polymerase I enhancer sequence-specific DNA binding 
+GO:0001167 molecular_function T	sequence-specific DNA binding RNA polymerase I transcription factor activity 
+GO:0001168 molecular_function T	RNA polymerase I upstream control element sequence-specific DNA binding transcription factor activity 
+GO:0001169 molecular_function T	RNA polymerase I core promoter sequence-specific DNA binding transcription factor activity 
+GO:0001170 molecular_function T	RNA polymerase I enhancer sequence-specific DNA binding transcription factor activity 
+GO:0003677 molecular_function F	DNA binding 
+GO:0003680 molecular_function F	AT DNA binding 
+GO:0003681 molecular_function F	bent DNA binding 
+GO:0003690 molecular_function F	double-stranded DNA binding 
+GO:0003700 molecular_function T	sequence-specific DNA binding transcription factor activity 
+GO:0003705 molecular_function T	sequence-specific enhancer binding RNA polymerase II transcription factor activity 
+GO:0003706 molecular_function T	ligand-regulated transcription factor activity 
+GO:0003712 molecular_function T	transcription cofactor activity 
+GO:0003713 molecular_function T	transcription coactivator activity 
+GO:0003714 molecular_function T	transcription corepressor activity 
+GO:0008134 molecular_function T	transcription factor binding 
+GO:0016987 molecular_function T	sigma factor activity 
+GO:0030374 molecular_function T	ligand-dependent nuclear receptor transcription coactivator activity 
+GO:0033613 molecular_function T	activating transcription factor binding 
+GO:0034246 molecular_function F	mitochondrial RNA polymerase binding promoter specificity activity 
+GO:0043425 molecular_function T	bHLH transcription factor binding 
+GO:0043565 molecular_function T	sequence-specific DNA binding 
+GO:0044212 molecular_function T	transcription regulatory region DNA binding 
+GO:0044213 molecular_function T	intronic transcription regulatory region DNA binding 
+GO:0070491 molecular_function T	repressing transcription factor binding 

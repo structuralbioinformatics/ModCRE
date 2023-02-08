@@ -1,0 +1,245 @@
+GO:0000083 biological_process regulation of transcription involved in G1/S phase of mitotic cell cycle	
+GO:0000114 biological_process regulation of transcription involved in G1 phase of mitotic cell cycle 
+GO:0000115 biological_process regulation of transcription involved in S phase of mitotic cell cycle 
+GO:0000116 biological_process regulation of transcription involved in G2-phase of mitotic cell cycle 
+GO:0000117 biological_process regulation of transcription involved in G2/M-phase of mitotic cell cycle 
+GO:0000122 biological_process negative regulation of transcription from RNA polymerase II promoter 
+GO:0000409 biological_process regulation of transcription by galactose	
+GO:0000410 biological_process negative regulation of transcription by galactose 
+GO:0000411 biological_process positive regulation of transcription by galactose 
+GO:0000429 biological_process carbon catabolite regulation of transcription from RNA polymerase II promoter 
+GO:0000430 biological_process regulation of transcription from RNA polymerase II promoter by glucose 
+GO:0000431 biological_process regulation of transcription from RNA polymerase II promoter by galactose 
+GO:0000432 biological_process positive regulation of transcription from RNA polymerase II promoter by glucose 
+GO:0000433 biological_process negative regulation of transcription from RNA polymerase II promoter by glucose 
+GO:0000434 biological_process negative regulation of transcription from RNA polymerase II promoter by galactose 
+GO:0000435 biological_process positive regulation of transcription from RNA polymerase II promoter by galactose 
+GO:0000436 biological_process carbon catabolite activation of transcription from RNA polymerase II promoter 
+GO:0000437 biological_process carbon catabolite repression of transcription from RNA polymerase II promoter 
+GO:0000716 biological_process transcription-coupled nucleotide-excision repair, DNA damage recognition 
+GO:0000972 biological_process transcription-dependent tethering of RNA polymerase II gene DNA at nuclear periphery 
+GO:0001009 biological_process transcription from RNA polymerase III type 2 promoter 
+GO:0001035 biological_process transcription from RNA polymerase III type 3 promoter 
+GO:0001041 biological_process transcription from a RNA polymerase III hybrid type promoter 
+GO:0001059 biological_process transcription from RNA polymerase IV promoter 
+GO:0001060 biological_process transcription from RNA polymerase V promoter 
+GO:0001079 biological_process nitrogen catabolite regulation of transcription from RNA polymerase II promoter 
+GO:0001080 biological_process nitrogen catabolite activation of transcription from RNA polymerase II promoter 
+GO:0001081 biological_process nitrogen catabolite repression of transcription from RNA polymerase II promoter 
+GO:0001112 biological_process DNA-dependent transcriptional open complex formation 
+GO:0001113 biological_process transcriptional open complex formation at RNA polymerase II promoter 
+GO:0001121 biological_process transcription from bacterial-type RNA polymerase promoter 
+GO:0001123 biological_process transcription initiation from bacterial-type RNA polymerase promoter 
+GO:0001126 biological_process bacterial-type RNA polymerase preinitiation complex assembly 
+GO:0001127 biological_process transcriptional open complex formation at bacterial-type RNA polymerase promoter 
+GO:0003256 biological_process regulation of transcription from RNA polymerase II promoter involved in myocardial precursor cell differentiation 
+GO:0003257 biological_process positive regulation of transcription from RNA polymerase II promoter involved in myocardial precursor cell differentiation 
+GO:0003258 biological_process regulation of transcription from RNA polymerase II promoter involved in endocardial precursor cell differentiation 
+GO:0006283 biological_process transcription-coupled nucleotide-excision repair 
+GO:0006351 biological_process transcription, DNA-dependent 
+GO:0006352 biological_process transcription initiation, DNA-dependent 
+GO:0006355 biological_process regulation of transcription, DNA-dependent 
+GO:0006356 biological_process regulation of transcription from RNA polymerase I promoter 
+GO:0006357 biological_process regulation of transcription from RNA polymerase II promoter 
+GO:0006359 biological_process regulation of transcription from RNA polymerase III promoter 
+GO:0006360 biological_process transcription from RNA polymerase I promoter 
+GO:0006361 biological_process transcription initiation from RNA polymerase I promoter 
+GO:0006366 biological_process transcription from RNA polymerase II promoter 
+GO:0006367 biological_process transcription initiation from RNA polymerase II promoter 
+GO:0006383 biological_process transcription from RNA polymerase III promoter 
+GO:0006384 biological_process transcription initiation from RNA polymerase III promoter 
+GO:0006390 biological_process transcription from mitochondrial promoter 
+GO:0006391 biological_process transcription initiation from mitochondrial promoter 
+GO:0006978 biological_process DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator 
+GO:0006985 biological_process positive regulation of NF-kappaB transcription factor activity by ER overload response 
+GO:0006990 biological_process positive regulation of transcription from RNA polymerase II promoter involved in unfolded protein response 
+GO:0006994 biological_process positive regulation of transcription via sterol regulatory element binding involved in ER-nuclear sterol response pathway 
+GO:0007068 biological_process negative regulation of transcription during mitosis 
+GO:0007069 biological_process negative regulation of transcription from RNA polymerase I promoter during mitosis 
+GO:0007070 biological_process negative regulation of transcription from RNA polymerase II promoter during mitosis 
+GO:0007071 biological_process negative regulation of transcription from RNA polymerase III promoter during mitosis 
+GO:0007072 biological_process positive regulation of transcription on exit from mitosis 
+GO:0007073 biological_process positive regulation of transcription on exit from mitosis, from RNA polymerase I promoter 
+GO:0007074 biological_process positive regulation of transcription on exit from mitosis, from RNA polymerase II promoter 
+GO:0007075 biological_process positive regulation of transcription on exit from mitosis, from RNA polymerase III promoter 
+GO:0007221 biological_process positive regulation of transcription of Notch receptor target 
+GO:0007228 biological_process positive regulation of hh target transcription factor activity 
+GO:0007329 biological_process positive regulation of transcription from RNA polymerase II promoter by pheromones 
+GO:0007360 biological_process positive regulation of posterior gap gene transcription 
+GO:0007363 biological_process positive regulation of terminal gap gene transcription 
+GO:0007532 biological_process regulation of transcription, mating-type specific 
+GO:0009299 biological_process mRNA transcription 
+GO:0009300 biological_process antisense RNA transcription 
+GO:0009302 biological_process snoRNA transcription 
+GO:0009303 biological_process rRNA transcription 
+GO:0009304 biological_process tRNA transcription 
+GO:0009371 biological_process positive regulation of transcription by pheromones 
+GO:0009373 biological_process regulation of transcription by pheromones 
+GO:0010620 biological_process negative regulation of transcription by transcription factor catabolism 
+GO:0010621 biological_process negative regulation of transcription by transcription factor localization 
+GO:0010630 biological_process regulation of transcription, start site selection 
+GO:0010672 biological_process regulation of transcription from RNA polymerase II promoter during meiosis 
+GO:0010673 biological_process positive regulation of transcription from RNA polymerase II promoter during meiosis 
+GO:0010674 biological_process negative regulation of transcription from RNA polymerase II promoter during meiosis 
+GO:0010678 biological_process negative regulation of cellular carbohydrate metabolic process by repression of transcription 
+GO:0010688 biological_process negative regulation of ribosomal protein gene transcription from RNA polymerase II promoter 
+GO:0010689 biological_process negative regulation of ribosomal protein gene transcription from RNA polymerase II promoter in response to chemical stimulus 
+GO:0010690 biological_process negative regulation of ribosomal protein gene transcription from RNA polymerase II promoter in response to stress 
+GO:0010691 biological_process negative regulation of ribosomal protein gene transcription from RNA polymerase II promoter in response to nutrient levels 
+GO:0010723 biological_process positive regulation of transcription from RNA polymerase II promoter in response to iron 
+GO:0010735 biological_process positive regulation of transcription via serum response element binding 
+GO:0010767 biological_process regulation of transcription from RNA polymerase II promoter in response to UV-induced DNA damage 
+GO:0010768 biological_process negative regulation of transcription from RNA polymerase II promoter in response to UV-induced DNA damage 
+GO:0010944 biological_process negative regulation of transcription by competitive promoter binding 
+GO:0016479 biological_process negative regulation of transcription from RNA polymerase I promoter 
+GO:0016480 biological_process negative regulation of transcription from RNA polymerase III promoter 
+GO:0017055 biological_process negative regulation of RNA polymerase II transcriptional preinitiation complex assembly 
+GO:0019056 biological_process modulation by virus of host transcription 
+GO:0019083 biological_process viral transcription 
+GO:0019084 biological_process (delayed) early viral mRNA transcription 
+GO:0019085 biological_process immediate early viral mRNA transcription 
+GO:0019086 biological_process late viral mRNA transcription 
+GO:0021882 biological_process regulation of transcription from RNA polymerase II promoter involved in forebrain neuron fate commitment 
+GO:0021909 biological_process regulation of transcription from RNA polymerase II promoter involved in spinal cord anterior-posterior patterning 
+GO:0021912 biological_process regulation of transcription from RNA polymerase II promoter involved in spinal cord motor neuron fate specification 
+GO:0021913 biological_process regulation of transcription from RNA polymerase II promoter involved in ventral spinal cord interneuron specification 
+GO:0021918 biological_process regulation of transcription from RNA polymerase II promoter involved in somatic motor neuron fate commitment 
+GO:0021920 biological_process regulation of transcription from RNA polymerase II promoter involved in spinal cord association neuron specification	
+GO:0030969 biological_process UFP-specific transcription factor mRNA processing involved in endoplasmic reticulum unfolded protein response 
+GO:0032088 biological_process negative regulation of NF-kappaB transcription factor activity 
+GO:0032199 biological_process reverse transcription involved in RNA-mediated transposition 
+GO:0032792 biological_process negative regulation of CREB transcription factor activity 
+GO:0032793 biological_process positive regulation of CREB transcription factor activity 
+GO:0032897 biological_process negative regulation of viral transcription 
+GO:0033217 biological_process regulation of transcription from RNA polymerase II promoter in response to iron ion starvation 
+GO:0034225 biological_process regulation of transcription from RNA polymerase II promoter in response to zinc ion starvation 
+GO:0034339 biological_process regulation of transcription from RNA polymerase II promoter by nuclear hormone receptor 
+GO:0034395 biological_process regulation of transcription from RNA polymerase II promoter in response to iron 
+GO:0034396 biological_process negative regulation of transcription from RNA polymerase II promoter in response to iron 
+GO:0035104 biological_process positive regulation of transcription via sterol regulatory element binding 
+GO:0042772 biological_process DNA damage response, signal transduction resulting in transcription 
+GO:0042789 biological_process mRNA transcription from RNA polymerase II promoter 
+GO:0042790 biological_process transcription of nuclear rRNA large RNA polymerase I transcript 
+GO:0042791 biological_process 5S class rRNA transcription from RNA polymerase III type 1 promoter 
+GO:0042792 biological_process rRNA transcription from mitochondrial promoter 
+GO:0042793 biological_process transcription from plastid promoter 
+GO:0042794 biological_process rRNA transcription from plastid promoter 
+GO:0042795 biological_process snRNA transcription from RNA polymerase II promoter 
+GO:0042796 biological_process snRNA transcription from RNA polymerase III promoter 
+GO:0042797 biological_process tRNA transcription from RNA polymerase III promoter 
+GO:0042990 biological_process regulation of transcription factor import into nucleus 
+GO:0042992 biological_process negative regulation of transcription factor import into nucleus 
+GO:0042993 biological_process positive regulation of transcription factor import into 
+GO:0043433 biological_process negative regulation of sequence-specific DNA binding transcription factor activity 
+GO:0043618 biological_process regulation of transcription from RNA polymerase II promoter in response to stress 
+GO:0043619 biological_process regulation of transcription from RNA polymerase II promoter in response to oxidative stress 
+GO:0043620 biological_process regulation of DNA-dependent transcription in response to stress 
+GO:0043921 biological_process modulation by host of viral transcription 
+GO:0043922 biological_process negative regulation by host of viral transcription 
+GO:0043923 biological_process positive regulation by host of viral transcription 
+GO:0044324 biological_process regulation of transcription involved in anterior/posterior axis specification 
+GO:0045013 biological_process carbon catabolite repression of transcription 
+GO:0045014 biological_process negative regulation of transcription by glucose 
+GO:0045892 biological_process negative regulation of transcription, DNA-dependent 
+GO:0045893 biological_process positive regulation of transcription, DNA-dependent 
+GO:0045894 biological_process negative regulation of transcription, mating-type specific 
+GO:0045895 biological_process positive regulation of transcription, mating-type specific 
+GO:0045896 biological_process regulation of transcription during mitosis 
+GO:0045897 biological_process positive regulation of transcription during mitosis 
+GO:0045943 biological_process positive regulation of transcription from RNA polymerase I promoter 
+GO:0045944 biological_process positive regulation of transcription from RNA polymerase II promoter 
+GO:0045945 biological_process positive regulation of transcription from RNA polymerase III promoter 
+GO:0045990 biological_process carbon catabolite regulation of transcription 
+GO:0045991 biological_process carbon catabolite activation of transcription 
+GO:0045996 biological_process negative regulation of transcription by pheromones 
+GO:0046015 biological_process regulation of transcription by glucose 
+GO:0046016 biological_process positive regulation of transcription by glucose 
+GO:0046017 biological_process regulation of transcription from RNA polymerase I promoter, mitotic 
+GO:0046018 biological_process positive regulation of transcription from RNA polymerase I promoter during mitosis 
+GO:0046019 biological_process regulation of transcription from RNA polymerase II promoter by pheromones 
+GO:0046020 biological_process negative regulation of transcription from RNA polymerase II promoter by pheromones 
+GO:0046021 biological_process regulation of transcription from RNA polymerase II promoter, mitotic 
+GO:0046022 biological_process positive regulation of transcription from RNA polymerase II promoter during mitosis 
+GO:0046023 biological_process regulation of transcription from RNA polymerase III promoter, mitotic 
+GO:0046024 biological_process positive regulation of transcription from RNA polymerase III promoter during mitosis 
+GO:0046782 biological_process regulation of viral transcription 
+GO:0050434 biological_process positive regulation of viral 
+GO:0051037 biological_process regulation of transcription during 
+GO:0051038 biological_process negative regulation of transcription during meiosis 
+GO:0051039 biological_process positive regulation of transcription during meiosis 
+GO:0051090 biological_process regulation of sequence-specific DNA binding transcription factor activity 
+GO:0051091 biological_process positive regulation of sequence-specific DNA binding transcription factor activity 
+GO:0051092 biological_process positive regulation of NF-kappaB transcription factor activity 
+GO:0052026 biological_process modulation by symbiont of host transcription 
+GO:0052312 biological_process modulation of transcription in other organism involved in symbiotic interaction 
+GO:0052472 biological_process modulation by host of symbiont transcription 
+GO:0060194 biological_process regulation of antisense RNA transcription 
+GO:0060195 biological_process negative regulation of antisense RNA transcription 
+GO:0060196 biological_process positive regulation of antisense RNA transcription 
+GO:0060260 biological_process regulation of transcription initiation from RNA polymerase II promoter 
+GO:0060261 biological_process positive regulation of transcription initiation from RNA polymerase II promoter 
+GO:0060277 biological_process negative regulation of transcription involved in G1 phase of mitotic cell cycle 
+GO:0060469 biological_process positive regulation of transcription involved in egg activation 
+GO:0060500 biological_process regulation of transcription from RNA polymerase II promoter involved in lung bud formation 
+GO:0060597 biological_process regulation of transcription from RNA polymerase II promoter involved in mammary gland 
+GO:0060633 biological_process negative regulation of transcription initiation from RNA polymerase II promoter 
+GO:0060796 biological_process regulation of transcription involved in primary germ layer cell fate commitment 
+GO:0060805 biological_process negative regulation of trophoblast cell differentiation by transcription regulation from RNA polymerase II promoter 
+GO:0060807 biological_process regulation of transcription from RNA polymerase II promoter involved in definitive endodermal cell fate specification 
+GO:0060849 biological_process regulation of transcription involved in lymphatic endothelial cell fate commitment 
+GO:0060850 biological_process regulation of transcription involved in cell fate commitment 
+GO:0060852 biological_process regulation of transcription involved in venous endothelial cell fate commitment 
+GO:0060899 biological_process regulation of transcription involved in eye field cell fate commitment of camera-type eye 
+GO:0060962 biological_process regulation of ribosomal protein gene transcription from RNA polymerase II promoter 
+GO:0060963 biological_process positive regulation of ribosomal protein gene transcription from RNA polymerase II promoter 
+GO:0060994 biological_process regulation of transcription from RNA polymerase II promoter involved in kidney development 
+GO:0061216 biological_process regulation of transcription from RNA polymerase II promoter involved in mesonephros development  
+GO:0070028 biological_process regulation of transcription by carbon monoxide 
+GO:0070897 biological_process DNA-dependent transcriptional preinitiation complex assembly 
+GO:0070898 biological_process RNA polymerase III transcriptional preinitiation complex assembly 
+GO:0071033 biological_process nuclear retention of pre-mRNA at the site of transcription 
+GO:0071048 biological_process nuclear retention of unspliced pre-mRNA at the site of transcription 
+GO:0071049 biological_process nuclear retention of pre-mRNA with aberrant 3'-ends at the site of transcription 
+GO:0071733 biological_process transcriptional activation by promoter-enhancer looping 
+GO:0071930 biological_process negative regulation of transcription involved in G1/S phase of mitotic cell cycle 
+GO:0071931 biological_process positive regulation of transcription involved in G1/S phase of mitotic cell cycle 
+GO:0072212 biological_process regulation of transcription from RNA polymerase II promoter involved in metanephros development 
+GO:0072361 biological_process regulation of glycolysis by regulation of transcription from an RNA polymerase II promoter 
+GO:0072362 biological_process regulation of glycolysis by negative regulation of transcription from an RNA polymerase II promoter 
+GO:0072363 biological_process regulation of glycolysis by positive regulation of transcription from an RNA polymerase II promoter 
+GO:0072364 biological_process regulation of cellular ketone metabolic process by regulation of transcription from an RNA polymerase II promoter 
+GO:0072365 biological_process regulation of cellular ketone metabolic process by negative regulation of transcription from an RNA polymerase II promoter 
+GO:0072366 biological_process regulation of cellular ketone metabolic process by positive regulation of transcription from an RNA polymerase II promoter 
+GO:0072367 biological_process regulation of lipid transport by regulation of transcription from an RNA polymerase II promoter 
+GO:0072368 biological_process regulation of lipid transport by negative regulation of transcription from an RNA polymerase II promoter 
+GO:0072369 biological_process regulation of lipid transport by positive regulation of transcription from an RNA polymerase II promoter 
+GO:0072500 biological_process negative regulation of transcription from RNA polymerase II promoter by nuclear hormone receptor 
+GO:0075180 biological_process regulation of transcription in response to host 
+GO:0075181 biological_process positive regulation of symbiont transcription in response to host 
+GO:0075182 biological_process negative regulation of symbiont transcription in response to host 
+GO:0090019 biological_process regulation of transcription involved in anterior neural plate formation 
+GO:0090020 biological_process regulation of transcription involved in posterior neural plate formation 
+GO:0090203 biological_process transcriptional activation by promoter-terminator looping 
+GO:0090236 biological_process regulation of transcription from RNA polymerase II promoter involved in somitogenesis 
+GO:0090262 biological_process regulation of transcription-coupled nucleotide-excision repair 
+GO:0090282 biological_process positive regulation of transcription involved in G2/M-phase of mitotic cell cycle 
+GO:0090293 biological_process nitrogen catabolite regulation of transcription 
+GO:0090294 biological_process nitrogen catabolite activation of transcription 
+GO:0090295 biological_process nitrogen catabolite repression of transcription 
+GO:0090375 biological_process negative regulation of transcription from RNA polymerase II promoter in response to iron ion starvation 
+GO:2000142 biological_process regulation of transcription initiation, DNA-dependent 
+GO:2000143 biological_process negative regulation of transcription initiation, DNA-dependent 
+GO:2000144 biological_process positive regulation of transcription initiation, DNA-dependent 
+GO:2000325 biological_process regulation of ligand-dependent nuclear receptor transcription coactivator activity 
+GO:2000326 biological_process negative regulation of ligand-dependent nuclear receptor transcription coactivator activity 
+GO:2000327 biological_process positive regulation of ligand-dependent nuclear receptor transcription coactivator activity 
+GO:2000531 biological_process regulation of transcription from RNA polymerase II promoter involved in fatty acid biosynthetic process 
+GO:2000677 biological_process regulation of transcription regulatory region DNA binding 
+GO:2000678 biological_process negative regulation of transcription regulatory region DNA binding 
+GO:2000679 biological_process positive regulation of transcription regulatory region DNA binding 
+GO:2000721 biological_process positive regulation of transcription from RNA polymerase II promoter involved in smooth muscle cell differentiation 
+GO:2000745 biological_process positive regulation of transcription from RNA polymerase III promoter involved in smooth muscle cell differentiation 
+
+
+
+

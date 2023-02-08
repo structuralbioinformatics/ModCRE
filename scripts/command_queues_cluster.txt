@@ -1,0 +1,16 @@
+#!/bin/sh
+##$BATCH -l h_vmem=200G
+#$BATCH --mem=8G
+
+module load dssp
+module load CD-HIT
+module load EMBOSS
+module load MEME
+module load Modeller/9.13
+module load BLAST+/2.2.31 
+module load HMMER/3.1b2 
+module load TMalign
+module load x3dna/2.3 
+module load HBPLUS/3.2
+module load Python/2.7.11
+
