@@ -36,7 +36,7 @@
 
     command_queues_cluster.txt
 
-  * Folder files contains files as used in the webservice http://sbi.upf.edu/modcre. But these files can be modified by the user according to his own criteria
+  * Folder files contains files as used in the webservice http://sbi.upf.edu/modcre. But these files can be modified under the criteria of the users
 
     [Negative/Positive]_keywords are used to select TFs
 
