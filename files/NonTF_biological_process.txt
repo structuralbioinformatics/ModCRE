@@ -1,0 +1,19 @@
+GO:0000018 F:regulation of DNA recombination
+GO:0000718 F:nucleotide-excision repair, DNA damage removal
+GO:0000723 F:telomere maintenance
+GO:0000786 F:nucleosome
+GO:0006274 F:DNA replication termination
+GO:0006281 F:DNA repair
+GO:0006304 F:DNA modification
+GO:0006310 F:DNA recombination
+GO:0006334 F:nucleosome assembly
+GO:0008156 F:negative regulation of DNA replication
+GO:0009307 F:DNA restriction-modification system
+GO:0015074 F:DNA integration
+GO:0016233 F:telomere capping
+GO:0019073 F:viral DNA genome packaging
+GO:0019047 F:provirus integration
+GO:0019059 F:initiation of viral infection
+GO:0030261 F:chromosome condensation
+GO:0044001 F:migration in host
+GO:0090305 F:nucleic acid phosphodiester bond hydrolysis

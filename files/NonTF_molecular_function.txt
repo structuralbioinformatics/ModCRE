@@ -1,0 +1,62 @@
+GO:0000150 F:recombinase activity
+GO:0000703 F:oxidized pyrimidine base lesion DNA N-glyco...
+GO:0003678 F:DNA helicase activity
+GO:0003697 F:single-stranded DNA binding
+GO:0003725 F:double-stranded RNA binding
+GO:0003726 F:double-stranded RNA adenosine deaminase act...
+GO:0003727 F:single-stranded RNA binding
+GO:0003886 F:DNA (cytosine-5-)-methyltransferase activity
+GO:0003904 F:deoxyribodipyrimidine photo-lyase activity
+GO:0003905 F:alkylbase DNA N-glycosylase activity
+GO:0003906 F:DNA-(apurinic or apyrimidinic site) lyase a...
+GO:0003910 F:DNA ligase (ATP) activity
+GO:0003911 F:DNA ligase (NAD+) activity
+GO:0003912 F:DNA nucleotidylexotransferase activity
+GO:0003913 F:DNA photolyase activity
+GO:0003917 F:DNA topoisomerase type I activity
+GO:0003918 F:DNA topoisomerase (ATP-hydrolyzing) activity
+GO:0003964 F:RNA-directed DNA polymerase activity
+GO:0003968 F:RNA-directed RNA polymerase activity
+GO:0004003 F:ATP-dependent DNA helicase activity
+GO:0004190 F:aspartic-type endopeptidase activity
+GO:0004197 F:cysteine-type endopeptidase activity
+GO:0004252 F:serine-type endopeptidase activity
+GO:0004386 F:helicase activity
+GO:0004519 F:endonuclease activity
+GO:0004520 F:endodeoxyribonuclease activity
+GO:0004521 F:endoribonuclease activity
+GO:0004522 F:pancreatic ribonuclease activity
+GO:0004523 F:ribonuclease H activity
+GO:0004527 F:exonuclease activity
+GO:0004528 F:phosphodiesterase I activity
+GO:0004530 F:deoxyribonuclease I activity
+GO:0004803 F:transposase activity
+GO:0004844 F:uracil DNA N-glycosylase activity
+GO:0030337 F:DNA polymerase processivity factor activity	
+GO:0008263 F:pyrimidine-specific mismatch base pair DNA ...
+GO:0008310 F:single-stranded DNA specific 3'-5' exodeoxy...
+GO:0008408 F:3'-5' exonuclease activity
+GO:0008409 F:5'-3' exonuclease activity
+GO:0008534 F:oxidized purine base lesion DNA N-glycosyla...
+GO:0008656 F:caspase activator activity
+GO:0008833 F:deoxyribonuclease IV (phage-T4-induced) act...
+GO:0008847 F:Enterobacter ribonuclease activity
+GO:0008853 F:exodeoxyribonuclease III activity
+GO:0008907 F:integrase activity
+GO:0009036 F:Type II site-specific deoxyribonuclease act...
+GO:0009381 F:excinuclease ABC activity
+GO:0010521 F:telomerase inhibitor activity
+GO:0016740 F:transferase activity
+GO:0016779 F:nucleotidyltransferase activity
+GO:0016798 F:hydrolase activity, acting on glycosyl bonds
+GO:0016820 F:hydrolase activity, acting on acid anhydrid...
+GO:0016829 F:lyase activity
+GO:0016874 F:ligase activity
+GO:0017005 F:3'-tyrosyl-DNA phosphodiesterase activity
+GO:0017111 F:nucleoside-triphosphatase activity
+GO:0017125 F:deoxycytidyl transferase activity
+GO:0017151 F:DEAD/H-box RNA helicase binding
+GO:0033897 F:ribonuclease T2 activity
+GO:0043047 F:single-stranded telomeric DNA binding
+GO:0043737 F:deoxyribonuclease V activity
+GO:0046404 F:ATP-dependent polydeoxyribonucleotide 5'-hy...
