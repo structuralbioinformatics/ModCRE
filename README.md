@@ -36,6 +36,19 @@
 
     command_queues_cluster.txt
 
+  * Folder files contains files as used in the webservice http://sbi.upf.edu/modcre. But these files can be modified by the user according to his own criteria
+
+    [Negative/Positive]_keywords are used to select TFs
+
+    [TF/NonTF]_biological_process.txt and [TF/NonTF]_molecular_function.txt are used to restrict the selection of TFs
+
+    nucleosomal_dna.pdb is used as template for nucleosome structures
+
+    species* files will be generated with the file "speclist.txt" from Uniprot DB
+
+    TcoF_merged.fa and TcoF_merged.txt are the sequences and interactions of co-transcriptoion factors (see reference in manuscript)
+    
+
 ----
 # Download files 
 ----
@@ -79,13 +92,14 @@ mkdir uniprot
 -------
 # UniProt:
 * Go to "http://www.uniprot.org/".
+* Move to folder uniprot to download files
 * Download UniProtKB Swiss-Prot and TrEMBL proteins in FASTA format.
 * Gunzip downloaded files, and concatenate them as: "uniprot_sprot_trembl.fasta" (file is ~40G).
 * Go to "http://www.uniprot.org/docs/speclist".
-* Right click and "Save Page As..." "speclist.txt".
+* Right click and "Save Page As..." "speclist.txt" in folder "uniprot"
 * On command line, run: grep ">" uniprot_sprot_trembl.fasta > headers.txt -*
 * Get uniprot_sprot and uniref50/90
-* Move to folder uniprot and execute:
+* In folder uniprot execute:
 
 curl -O ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.fasta.gz
 
