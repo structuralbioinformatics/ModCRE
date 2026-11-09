@@ -51,7 +51,7 @@ https://modcre.upf.edu
 
     species* files will be generated with the file "speclist.txt" from Uniprot DB
 
-    TcoF_merged.fa and TcoF_merged.txt are the sequences and interactions of co-transcriptoion factors (see reference in manuscript)
+    TcoF_merged.fa and TcoF_merged.txt are the sequences and interactions of co-transcription factors (see reference in manuscript)
     
 
 ----
