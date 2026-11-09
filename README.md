@@ -1,7 +1,7 @@
 ----
 # Webservice
 ----
-http://sbi.upf.edu/modcre
+https://modcre.upf.edu
 
 ----
 # Configuration  
